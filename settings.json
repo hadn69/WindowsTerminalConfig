@@ -13,19 +13,6 @@
             "keys": "alt+shift+2"
         },
         {
-            "command": "find",
-            "keys": "ctrl+shift+f"
-        },
-        {
-            "command": 
-            {
-                "action": "splitPane",
-                "index": 6,
-                "split": "auto"
-            },
-            "keys": "alt+shift+7"
-        },
-        {
             "command": 
             {
                 "action": "splitPane",
@@ -38,14 +25,14 @@
             "command": 
             {
                 "action": "splitPane",
-                "index": 0,
+                "index": 6,
                 "split": "auto"
             },
-            "keys": "alt+shift+1"
+            "keys": "alt+shift+7"
         },
         {
-            "command": "paste",
-            "keys": "ctrl+v"
+            "command": "find",
+            "keys": "ctrl+shift+f"
         },
         {
             "command": 
@@ -54,6 +41,19 @@
                 "singleLine": false
             },
             "keys": "ctrl+c"
+        },
+        {
+            "command": "paste",
+            "keys": "ctrl+v"
+        },
+        {
+            "command": 
+            {
+                "action": "splitPane",
+                "index": 0,
+                "split": "auto"
+            },
+            "keys": "alt+shift+1"
         },
         {
             "command": 
@@ -86,10 +86,10 @@
             "command": 
             {
                 "action": "splitPane",
-                "split": "auto",
-                "splitMode": "duplicate"
+                "index": 4,
+                "split": "auto"
             },
-            "keys": "alt+shift+d"
+            "keys": "alt+shift+5"
         },
         {
             "command": 
@@ -104,10 +104,10 @@
             "command": 
             {
                 "action": "splitPane",
-                "index": 4,
-                "split": "auto"
+                "split": "auto",
+                "splitMode": "duplicate"
             },
-            "keys": "alt+shift+5"
+            "keys": "alt+shift+d"
         },
         {
             "command": 
@@ -132,6 +132,7 @@
         "defaults": 
         {
             "colorScheme": "Skyline Dark",
+            "elevate": false,
             "icon": "ms-appx:///ProfileIcons/pwsh.png",
             "opacity": 95,
             "useAcrylic": true
@@ -185,7 +186,7 @@
                 "icon": "ms-appdata:///Local/.terminalIcons/ssh.png",
                 "name": "Hadn69.com"
             },
-			{
+            {
                 "commandline": "ssh -i C:\\Users\\hadn69\\.ssh\\id_rsa hadn69@moon-serve.zerotier.schlarp.xyz",
                 "guid": "{a6a2b956-dd36-4a1a-881d-8afb5394c2a5}",
                 "hidden": false,
@@ -237,6 +238,19 @@
                 "hidden": false,
                 "name": "Developer PowerShell for VS 2019",
                 "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "name": "Windows PowerShell"
+            },
+            {
+                "commandline": "C:\\btop4win\\btop4win.exe",
+                "elevate": true,
+                "guid": "{fc763dc6-afa6-460d-9478-1a5ca6eae440}",
+                "hidden": false,
+                "icon": "ms-appx:///ProfileIcons/pwsh-preview.png",
+                "name": "BTOP"
             }
         ]
     },
